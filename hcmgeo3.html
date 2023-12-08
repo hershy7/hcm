@@ -1,0 +1,642 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c687e4ad7b89a009ac386aacb2c3a443 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c687e4ad7b89a009ac386aacb2c3a443" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c687e4ad7b89a009ac386aacb2c3a443 = L.map(
+                "map_c687e4ad7b89a009ac386aacb2c3a443",
+                {
+                    center: [0.0, 0.0],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 13,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_f948bd5bb2c907994b4d25762f64a1ef = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_f948bd5bb2c907994b4d25762f64a1ef.addTo(map_c687e4ad7b89a009ac386aacb2c3a443);
+        
+    
+            var feature_group_c985e39f2efd60b76993a24d743ee69b = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_8a7ff968986b07ef3a4aedcc3417ef9b = L.marker(
+                [10.76697, 106.698434],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_a508465476f89bbb9e3b96cce72f00a4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_8a7ff968986b07ef3a4aedcc3417ef9b.setIcon(icon_a508465476f89bbb9e3b96cce72f00a4);
+        
+    
+        var popup_42bc7037ee4fc6c55d56254efa38cfb2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_28f9337bd616a1360fca13f705346ba7 = $(`<div id="html_28f9337bd616a1360fca13f705346ba7" style="width: 100.0%; height: 100.0%;">STARKING MASSAGE - 105 Đ. Ký Con, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_42bc7037ee4fc6c55d56254efa38cfb2.setContent(html_28f9337bd616a1360fca13f705346ba7);
+            
+        
+
+        marker_8a7ff968986b07ef3a4aedcc3417ef9b.bindPopup(popup_42bc7037ee4fc6c55d56254efa38cfb2)
+        ;
+
+        
+    
+    
+            var marker_2dd3e8d00307c7a68a8f0b79ebc51cbb = L.marker(
+                [10.7343276, 106.6579934],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_672fe5e5deed4be0a4034da2784b16a7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2dd3e8d00307c7a68a8f0b79ebc51cbb.setIcon(icon_672fe5e5deed4be0a4034da2784b16a7);
+        
+    
+        var popup_dd0d46d040b8dc1de79e2c95b950ae6e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f063d03a0e1e9b4c49b67d852b8811b3 = $(`<div id="html_f063d03a0e1e9b4c49b67d852b8811b3" style="width: 100.0%; height: 100.0%;">Massage Hoa Mai Luxury - 932C Đ. Tạ Quang Bửu, Phường 5, Quận 8, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_dd0d46d040b8dc1de79e2c95b950ae6e.setContent(html_f063d03a0e1e9b4c49b67d852b8811b3);
+            
+        
+
+        marker_2dd3e8d00307c7a68a8f0b79ebc51cbb.bindPopup(popup_dd0d46d040b8dc1de79e2c95b950ae6e)
+        ;
+
+        
+    
+    
+            var marker_b556e5d6fb8f1cae1bbf35060e246481 = L.marker(
+                [10.7318851, 106.7099549],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_f20402ada59f6af53dd587b9b7d370ba = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b556e5d6fb8f1cae1bbf35060e246481.setIcon(icon_f20402ada59f6af53dd587b9b7d370ba);
+        
+    
+        var popup_269e32e89b00915d95c4b5f56ca0ebc2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b6ad72f2f9998a5ffb0cbf4521bf6f5a = $(`<div id="html_b6ad72f2f9998a5ffb0cbf4521bf6f5a" style="width: 100.0%; height: 100.0%;">QUEEN BEE (퀸비 마사지) - 07 Cao Triều Phát, Tân Phong, Quận 7, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_269e32e89b00915d95c4b5f56ca0ebc2.setContent(html_b6ad72f2f9998a5ffb0cbf4521bf6f5a);
+            
+        
+
+        marker_b556e5d6fb8f1cae1bbf35060e246481.bindPopup(popup_269e32e89b00915d95c4b5f56ca0ebc2)
+        ;
+
+        
+    
+    
+            var marker_1669e5378820264549ebc78626ea23c9 = L.marker(
+                [10.7337136, 106.7093132],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_2503dbeadd21d79e175fda9411bd4949 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_1669e5378820264549ebc78626ea23c9.setIcon(icon_2503dbeadd21d79e175fda9411bd4949);
+        
+    
+        var popup_41ea1577352912203fedac9e4013c0ee = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_88137426b43ba93e4f37dbd9ddc4da0f = $(`<div id="html_88137426b43ba93e4f37dbd9ddc4da0f" style="width: 100.0%; height: 100.0%;">Spa Red rose - 25 Đ. Số 2, Tân Phong, Quận 7, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_41ea1577352912203fedac9e4013c0ee.setContent(html_88137426b43ba93e4f37dbd9ddc4da0f);
+            
+        
+
+        marker_1669e5378820264549ebc78626ea23c9.bindPopup(popup_41ea1577352912203fedac9e4013c0ee)
+        ;
+
+        
+    
+    
+            var marker_01e5b59504ad40d863e2816e63cf5cb5 = L.marker(
+                [10.7306833, 106.7070076],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_8d76ff3520d13fd5eb21de1a2d6fc7f3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_01e5b59504ad40d863e2816e63cf5cb5.setIcon(icon_8d76ff3520d13fd5eb21de1a2d6fc7f3);
+        
+    
+        var popup_a954098faf395e32534890b1839aed39 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8509fb13379597efda89b9347b5ee36e = $(`<div id="html_8509fb13379597efda89b9347b5ee36e" style="width: 100.0%; height: 100.0%;">bungbung2 - 38 Khu Phố Hưng Phước 3, Tân Phong, Quận 7, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_a954098faf395e32534890b1839aed39.setContent(html_8509fb13379597efda89b9347b5ee36e);
+            
+        
+
+        marker_01e5b59504ad40d863e2816e63cf5cb5.bindPopup(popup_a954098faf395e32534890b1839aed39)
+        ;
+
+        
+    
+    
+            var marker_6ee3bbd2823eecbb57e906505f00dc2f = L.marker(
+                [10.7796779, 106.7050418],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_751294bd791e3cb51d26949d399b4709 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6ee3bbd2823eecbb57e906505f00dc2f.setIcon(icon_751294bd791e3cb51d26949d399b4709);
+        
+    
+        var popup_2b66e3b1d3549cba004da94bf17f9eb0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_96fcc62d51c6ecef595697769966a7b0 = $(`<div id="html_96fcc62d51c6ecef595697769966a7b0" style="width: 100.0%; height: 100.0%;">Massage Linh Cherry Quận 1 - 4D2 Thái Văn Lung, Bến Nghé, Quận 1, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_2b66e3b1d3549cba004da94bf17f9eb0.setContent(html_96fcc62d51c6ecef595697769966a7b0);
+            
+        
+
+        marker_6ee3bbd2823eecbb57e906505f00dc2f.bindPopup(popup_2b66e3b1d3549cba004da94bf17f9eb0)
+        ;
+
+        
+    
+    
+            var marker_b205fedcc580e565709227d2fa8565f0 = L.marker(
+                [10.8247272, 106.7143488],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_cb80baf1e6868a1fe42180ef72282e15 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b205fedcc580e565709227d2fa8565f0.setIcon(icon_cb80baf1e6868a1fe42180ef72282e15);
+        
+    
+        var popup_6b4b47cf4c2e3c702de56c2a97ec074a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_de5f9b2c8cca7471364211618557b06d = $(`<div id="html_de5f9b2c8cca7471364211618557b06d" style="width: 100.0%; height: 100.0%;">풍투이 - 4 Đ. Số 2, Hiệp Bình Chánh, Thủ Đức, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_6b4b47cf4c2e3c702de56c2a97ec074a.setContent(html_de5f9b2c8cca7471364211618557b06d);
+            
+        
+
+        marker_b205fedcc580e565709227d2fa8565f0.bindPopup(popup_6b4b47cf4c2e3c702de56c2a97ec074a)
+        ;
+
+        
+    
+    
+            var marker_94d3171d911b53c5b149fcc0bb6e9f08 = L.marker(
+                [10.7995128, 106.6786988],
+                {}
+            ).addTo(feature_group_c985e39f2efd60b76993a24d743ee69b);
+        
+    
+            var icon_8ed8ba1e2b86930ef87fd41ed69d259e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_94d3171d911b53c5b149fcc0bb6e9f08.setIcon(icon_8ed8ba1e2b86930ef87fd41ed69d259e);
+        
+    
+        var popup_c283e1fa715fb9c29052f731898b33c0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d4bc201ace75f41ea059146f338bf3d3 = $(`<div id="html_d4bc201ace75f41ea059146f338bf3d3" style="width: 100.0%; height: 100.0%;">Hoa Ha Lan - 50 Hoàng Văn Thụ, Phường 9, Phú Nhuận, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_c283e1fa715fb9c29052f731898b33c0.setContent(html_d4bc201ace75f41ea059146f338bf3d3);
+            
+        
+
+        marker_94d3171d911b53c5b149fcc0bb6e9f08.bindPopup(popup_c283e1fa715fb9c29052f731898b33c0)
+        ;
+
+        
+    
+    
+            feature_group_c985e39f2efd60b76993a24d743ee69b.addTo(map_c687e4ad7b89a009ac386aacb2c3a443);
+        
+    
+            var feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616 = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_7c26377753979bd1f1c80e34f6aabbf3 = L.marker(
+                [10.751942984968295, 106.65925468417264],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_c8a77a101a3c54045c33020608a27612 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7c26377753979bd1f1c80e34f6aabbf3.setIcon(icon_c8a77a101a3c54045c33020608a27612);
+        
+    
+        var popup_2af39c721016ce330499360a5b0ed500 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7ded3a690a9b496d4bed199d88b61281 = $(`<div id="html_7ded3a690a9b496d4bed199d88b61281" style="width: 100.0%; height: 100.0%;">803 - 405 Đ. Trần Hưng Đạo, Phường 10, Quận 5, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_2af39c721016ce330499360a5b0ed500.setContent(html_7ded3a690a9b496d4bed199d88b61281);
+            
+        
+
+        marker_7c26377753979bd1f1c80e34f6aabbf3.bindPopup(popup_2af39c721016ce330499360a5b0ed500)
+        ;
+
+        
+    
+    
+            var marker_05e92fe750ab706822948d6f7b9c6f62 = L.marker(
+                [10.7520824, 106.6582203],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_abd2434fff630d3ba4bb19067fcd213b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_05e92fe750ab706822948d6f7b9c6f62.setIcon(icon_abd2434fff630d3ba4bb19067fcd213b);
+        
+    
+        var popup_8b0387944d5916879a52c59742630f5c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a2256c57c5072d59e4296ff61c81fdb7 = $(`<div id="html_a2256c57c5072d59e4296ff61c81fdb7" style="width: 100.0%; height: 100.0%;">Dragon-K - 466 Trần Hưng Đạo B, Phường 14, Quận 5, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_8b0387944d5916879a52c59742630f5c.setContent(html_a2256c57c5072d59e4296ff61c81fdb7);
+            
+        
+
+        marker_05e92fe750ab706822948d6f7b9c6f62.bindPopup(popup_8b0387944d5916879a52c59742630f5c)
+        ;
+
+        
+    
+    
+            var marker_6960bbf9470e37b4bcb4e2dc8a89e784 = L.marker(
+                [10.7723554, 106.6897308],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_e2181908bb245bc7f1de3217e54d8287 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_6960bbf9470e37b4bcb4e2dc8a89e784.setIcon(icon_e2181908bb245bc7f1de3217e54d8287);
+        
+    
+        var popup_8948a069a9317cd530cbeb88f3e6ec17 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e2fc585bbd0e56b9c39dbdc2ce27423f = $(`<div id="html_e2fc585bbd0e56b9c39dbdc2ce27423f" style="width: 100.0%; height: 100.0%;">Công Ty Tnhh Mtv Nhà Hàng Olympus - 39D- 39/1A- 39/2, Đ. Sương Nguyệt Anh, Phường Phạm Ngũ Lão, Quận 1, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_8948a069a9317cd530cbeb88f3e6ec17.setContent(html_e2fc585bbd0e56b9c39dbdc2ce27423f);
+            
+        
+
+        marker_6960bbf9470e37b4bcb4e2dc8a89e784.bindPopup(popup_8948a069a9317cd530cbeb88f3e6ec17)
+        ;
+
+        
+    
+    
+            var marker_64a85c344c7e4b89e537a98ccdd886b4 = L.marker(
+                [10.7310462, 106.6897184],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_c2eda64e9de5e3e8ebb2c28ea07697ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_64a85c344c7e4b89e537a98ccdd886b4.setIcon(icon_c2eda64e9de5e3e8ebb2c28ea07697ee);
+        
+    
+        var popup_c35eeee43bb4f262d2d5dad37c215271 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b4e0526002c98cdf804ef5220fcb47f3 = $(`<div id="html_b4e0526002c98cdf804ef5220fcb47f3" style="width: 100.0%; height: 100.0%;">Karaoke Pattaya - Trung Sơn - 299 - 301 - 303, Đ. số 9A, Khu dân cư Trung Sơn, Bình Chánh, Thành phố Hồ Chí Minh 71813 베트남</div>`)[0];
+                popup_c35eeee43bb4f262d2d5dad37c215271.setContent(html_b4e0526002c98cdf804ef5220fcb47f3);
+            
+        
+
+        marker_64a85c344c7e4b89e537a98ccdd886b4.bindPopup(popup_c35eeee43bb4f262d2d5dad37c215271)
+        ;
+
+        
+    
+    
+            var marker_7a9aa88ded1d5a5b7aba09e78057e7d3 = L.marker(
+                [10.750944518700974, 106.61911739779651],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_017bfe1b247f17599e4f02f575e93a98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_7a9aa88ded1d5a5b7aba09e78057e7d3.setIcon(icon_017bfe1b247f17599e4f02f575e93a98);
+        
+    
+        var popup_1492510c13e15974d2afa9d27463b5fe = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fc4835ff44f4eceaaa638ddbdbbbd700 = $(`<div id="html_fc4835ff44f4eceaaa638ddbdbbbd700" style="width: 100.0%; height: 100.0%;">BOSS KARA - 10 Đường số 6A, Bình Trị Đông B, Bình Tân, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_1492510c13e15974d2afa9d27463b5fe.setContent(html_fc4835ff44f4eceaaa638ddbdbbbd700);
+            
+        
+
+        marker_7a9aa88ded1d5a5b7aba09e78057e7d3.bindPopup(popup_1492510c13e15974d2afa9d27463b5fe)
+        ;
+
+        
+    
+    
+            var marker_a64b59223988285f727d7ed8ff0233bf = L.marker(
+                [10.75482241880529, 106.6798512437686],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_51fe8f17dc3ba22c7365a5a6a43c1b5b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_a64b59223988285f727d7ed8ff0233bf.setIcon(icon_51fe8f17dc3ba22c7365a5a6a43c1b5b);
+        
+    
+        var popup_90346c3cba96d87576aa18ef78e36e65 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_917dc2772c24f0d041c3645197ddb28a = $(`<div id="html_917dc2772c24f0d041c3645197ddb28a" style="width: 100.0%; height: 100.0%;">873 - 873 Đ. Trần Hưng Đạo, Phường 1, Quận 5, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_90346c3cba96d87576aa18ef78e36e65.setContent(html_917dc2772c24f0d041c3645197ddb28a);
+            
+        
+
+        marker_a64b59223988285f727d7ed8ff0233bf.bindPopup(popup_90346c3cba96d87576aa18ef78e36e65)
+        ;
+
+        
+    
+    
+            var marker_626bab0673a6f636fe823ce6e13807d9 = L.marker(
+                [10.752767979440177, 106.66446305553455],
+                {}
+            ).addTo(feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616);
+        
+    
+            var icon_eea0276e443e0766bbf4f045d061ef6d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_626bab0673a6f636fe823ce6e13807d9.setIcon(icon_eea0276e443e0766bbf4f045d061ef6d);
+        
+    
+        var popup_f85231e631a4ef244ca04ee24a8102eb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_994033a9568a5026b548acd03be0a5e9 = $(`<div id="html_994033a9568a5026b548acd03be0a5e9" style="width: 100.0%; height: 100.0%;">JULIA 66 - 66 Đ. Tản Đà, Phường 11, Quận 5, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_f85231e631a4ef244ca04ee24a8102eb.setContent(html_994033a9568a5026b548acd03be0a5e9);
+            
+        
+
+        marker_626bab0673a6f636fe823ce6e13807d9.bindPopup(popup_f85231e631a4ef244ca04ee24a8102eb)
+        ;
+
+        
+    
+    
+            feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616.addTo(map_c687e4ad7b89a009ac386aacb2c3a443);
+        
+    
+            var feature_group_6106f4c14ac33d8bcef7e316a5ebb92e = L.featureGroup(
+                {}
+            );
+        
+    
+            var marker_5e6b4066d7fc2625721c2331754c23d5 = L.marker(
+                [10.7951003, 106.6893767],
+                {}
+            ).addTo(feature_group_6106f4c14ac33d8bcef7e316a5ebb92e);
+        
+    
+            var icon_20ec8c4a525153ac7c7ca33753364ffe = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5e6b4066d7fc2625721c2331754c23d5.setIcon(icon_20ec8c4a525153ac7c7ca33753364ffe);
+        
+    
+        var popup_9a53088d85296684d095769fabe06063 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_53594b53e1ef32e4ea28075dfee938ec = $(`<div id="html_53594b53e1ef32e4ea28075dfee938ec" style="width: 100.0%; height: 100.0%;">Nhà Hàng Lai Rai Phố - 57C Đ. Trần Nhật Duật, Phường Tân Định, Quận 1, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_9a53088d85296684d095769fabe06063.setContent(html_53594b53e1ef32e4ea28075dfee938ec);
+            
+        
+
+        marker_5e6b4066d7fc2625721c2331754c23d5.bindPopup(popup_9a53088d85296684d095769fabe06063)
+        ;
+
+        
+    
+    
+            var marker_a6a76c6910bfd0e4191699760ed1c7af = L.marker(
+                [10.7769708, 106.6842441],
+                {}
+            ).addTo(feature_group_6106f4c14ac33d8bcef7e316a5ebb92e);
+        
+    
+            var icon_bb77606e803fb9d562413d6f36db1004 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_a6a76c6910bfd0e4191699760ed1c7af.setIcon(icon_bb77606e803fb9d562413d6f36db1004);
+        
+    
+        var popup_756484acbb7032e417b387df8ea0ff14 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_024078a41be221401d00293d839cab7f = $(`<div id="html_024078a41be221401d00293d839cab7f" style="width: 100.0%; height: 100.0%;">Nhà Hàng Hai Lúa (Tràm Chim Cũ) - 303 Đ. Điện Biên Phủ, Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_756484acbb7032e417b387df8ea0ff14.setContent(html_024078a41be221401d00293d839cab7f);
+            
+        
+
+        marker_a6a76c6910bfd0e4191699760ed1c7af.bindPopup(popup_756484acbb7032e417b387df8ea0ff14)
+        ;
+
+        
+    
+    
+            var marker_e839e92b6f09d18cd6e147ebcb4d7562 = L.marker(
+                [10.7768296, 106.6844474],
+                {}
+            ).addTo(feature_group_6106f4c14ac33d8bcef7e316a5ebb92e);
+        
+    
+            var icon_9b404b0eee04d40e00241959d2375969 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_e839e92b6f09d18cd6e147ebcb4d7562.setIcon(icon_9b404b0eee04d40e00241959d2375969);
+        
+    
+        var popup_da5c54505c6c0b3bb65a302fa55c74ed = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_454ea77c393d9506ca7fc054fde36fd7 = $(`<div id="html_454ea77c393d9506ca7fc054fde36fd7" style="width: 100.0%; height: 100.0%;">Nhà Hàng Phố Sài Gòn - 13 Lê Ngô Cát, Võ Thị Sáu, Quận 3, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_da5c54505c6c0b3bb65a302fa55c74ed.setContent(html_454ea77c393d9506ca7fc054fde36fd7);
+            
+        
+
+        marker_e839e92b6f09d18cd6e147ebcb4d7562.bindPopup(popup_da5c54505c6c0b3bb65a302fa55c74ed)
+        ;
+
+        
+    
+    
+            var marker_0496366cabb6c53cbf94dcc97277bb18 = L.marker(
+                [10.7621693, 106.6917016],
+                {}
+            ).addTo(feature_group_6106f4c14ac33d8bcef7e316a5ebb92e);
+        
+    
+            var icon_962b881b45fdbbd8dd1688f8f9c070f7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "star", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_0496366cabb6c53cbf94dcc97277bb18.setIcon(icon_962b881b45fdbbd8dd1688f8f9c070f7);
+        
+    
+        var popup_2b7a53600cf840989ecd32ff3c5dec77 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bef2f1a2ba67db909f31507f7df3c260 = $(`<div id="html_bef2f1a2ba67db909f31507f7df3c260" style="width: 100.0%; height: 100.0%;">Freedom Restaurant(todo) - 58 Hồ Hảo Hớn, P. Phú Thuận, Quận 1, Thành phố Hồ Chí Minh, 베트남</div>`)[0];
+                popup_2b7a53600cf840989ecd32ff3c5dec77.setContent(html_bef2f1a2ba67db909f31507f7df3c260);
+            
+        
+
+        marker_0496366cabb6c53cbf94dcc97277bb18.bindPopup(popup_2b7a53600cf840989ecd32ff3c5dec77)
+        ;
+
+        
+    
+    
+            feature_group_6106f4c14ac33d8bcef7e316a5ebb92e.addTo(map_c687e4ad7b89a009ac386aacb2c3a443);
+        
+    
+            var feature_group_1fe8b93db3755fba0ace5751b98c0e68 = L.featureGroup(
+                {}
+            );
+        
+    
+            feature_group_1fe8b93db3755fba0ace5751b98c0e68.addTo(map_c687e4ad7b89a009ac386aacb2c3a443);
+        
+    
+            var layer_control_db371cb7368d4e58abcdb2b393a083da_layers = {
+                base_layers : {
+                    "openstreetmap" : tile_layer_f948bd5bb2c907994b4d25762f64a1ef,
+                },
+                overlays :  {
+                    "\ub3c4\ud0b9\ubc0f\uc785\uc2f8" : feature_group_c985e39f2efd60b76993a24d743ee69b,
+                    "\ub85c\uceec\uac00\ub77c" : feature_group_cef6bae8b2a87ef7b338bfb9bfdbf616,
+                    "\ucc29\uc11d" : feature_group_6106f4c14ac33d8bcef7e316a5ebb92e,
+                    "Other" : feature_group_1fe8b93db3755fba0ace5751b98c0e68,
+                },
+            };
+            let layer_control_db371cb7368d4e58abcdb2b393a083da = L.control.layers(
+                layer_control_db371cb7368d4e58abcdb2b393a083da_layers.base_layers,
+                layer_control_db371cb7368d4e58abcdb2b393a083da_layers.overlays,
+                {"autoZIndex": true, "collapsed": false, "position": "topleft"}
+            ).addTo(map_c687e4ad7b89a009ac386aacb2c3a443);
+
+        
+    
+            map_c687e4ad7b89a009ac386aacb2c3a443.fitBounds(
+                [[10.7306833, 106.6579934], [10.8247272, 106.7143488]],
+                {}
+            );
+        
+</script>
+</html>
